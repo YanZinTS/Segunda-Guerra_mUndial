@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#cabecalho {
+    background-image: url(../imagens/duaslinhas.png);
+    background-position-y: no-repeat;
+    background-position: left bottom;
+}
+
+#cabecalho {
+    height: 154px;
+    background-color: #ABABB1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.logo-empresa {
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+.lupa {
+    width: 40px;
+}
+
+
+main {
+    width: 100%;
+}
+
+.texto-inicio {
+    padding: 0px 300px;
+    left: 5.42%;
+    right: 5.42%;
+    top: 14.43%;
+    bottom: 71.59%;
+
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 140px;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.texto p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 350px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 35px;
+    color: #000000;
+    padding-left: 170px;
+    padding-right: 170px;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+
+}
+
+
+.linha h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Jockey One', sans-serif;
+
+}
+
+.linha-tempo ul {
+    gap: 10px;
+    margin: 20px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+}
+
+.linha-tempo h4 {
+    width: 52px;
+    height: 52px;
+    background: #0D0D0D;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+}
+
+.linha-tempo p {
+    font-size: 25px;
+}
+
+#parte-baixo {
+    background-color: #000531;
+
+}
+
+.foto1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.texto-baixo {
+    margin-top: 60px;
+    color: white;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.texto-baixo p {
+    margin-bottom: 70px;
+}
+
+.foto-soldado {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    background-image: url(../imagens/soldadosfeb.png);
+    background-size: cover;
+
+}
+
+.parte-branca {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imagem-1 {
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.laranja{
+    color: orange;
+    padding: 15px;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+ul li{
+    padding: 2px;
+}
+
+ul li::before {
+    content: "•";
+    padding-right: 10px;
+}
+
+.fotopua{
+    margin-top: -400px;
+    margin-right: 400px;
+}
+
+.fotocobra{
+    margin-left: 500px;
+}
+
+.fotocarioca{
+    width: 400px;
+    padding: 0px 250px;
+    height: 461px;
+}

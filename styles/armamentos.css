@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.foto-soldado{
+    width: 100%;
+    background-image: url(/img/image\ 47.png);
+    text-align: center;
+    background-size: cover;
+}
+
+#cabecalho {
+    background-image: url(../imagens/duaslinhas.png);
+    background-position-y: no-repeat;
+    background-position: left bottom;
+}
+
+#cabecalho {
+    height: 150px;
+    background-color: #ABABB1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.logo-empresa {
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+.lupa {
+    width: 40px;
+}
+
+
+main {
+    width: 100%;
+}
+
+.linha-header{
+    border: 8px solid #000055;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    height: 8px; width: 100%;
+    background-color: #FF9922;
+    position: absolute;
+    bottom: 0px; left: 0px;
+}
+
+.linecinza{
+    border: 3px solid #B5B5B5;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    height: 50px; width: 100%;
+    bottom: 0px; left: 0px;
+}
+
+.texto-inicio {
+    padding: 0px 300px;
+    left: 5.42%;
+    right: 5.42%;
+    top: 14.43%;
+    bottom: 71.59%;
+
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 140px;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.texto p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 350px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 35px;
+    color: #000000;
+    padding-left: 170px;
+    padding-right: 170px;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+
+}
+
+.linha-tempo p {
+    font-size: 25px;
+}
+
+#parte-baixo {
+    background-color: #000531;
+    width: 100%;
+    position: absolute;
+}
+
+.texto-baixo {
+    margin-top: 60px;
+    color: white;
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.texto-baixo p {
+    margin-bottom: 70px;
+}
+
+#parte-baixo .texto-baixo li{
+    color: #FF9922;
+    font-size: 25pt;
+}
